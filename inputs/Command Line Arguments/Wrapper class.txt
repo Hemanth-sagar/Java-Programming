@@ -1,0 +1,10 @@
+To convert String type into  primitive data types
+Syntax : Datatype  <var> = <wrapper class>.parsemethod(Arg)
+
+#wrapper classes 
+  Byte  parseByte()
+  Short parseShort()
+  Integer parseInt()
+  Long parseLong()
+  Float parseFloat()
+  Double parseDouble()
