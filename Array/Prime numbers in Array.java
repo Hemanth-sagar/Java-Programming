@@ -12,7 +12,7 @@ class PrimeNums
 	System.out.println("enter the elements");
 	for(int i=0;i<n;i++)
 	{
-		System.out.println("enter the value");
+		System.out.println("enter the value"+(i+1));
 		a[i]=sc.nextInt();
 	}
 	int countprime=0;
