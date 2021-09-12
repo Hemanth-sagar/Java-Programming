@@ -1,3 +1,4 @@
+//no of even and odd numbers in an Array
 import java.util.*;
 class ArrayEvenOdd
 {  
