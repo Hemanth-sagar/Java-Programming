@@ -1,3 +1,4 @@
+//adding total elements in array
 import java.util.*;
 class ArraySum
 {
