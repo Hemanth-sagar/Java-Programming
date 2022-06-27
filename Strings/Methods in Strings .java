@@ -5,7 +5,10 @@ public class Main {
         //operation with single string
         String s1 = "Welcome";
         System.out.println(s1.length());
-        System.out.println("char at location 3 :" + s1.charAt(2));
+        
+        for(int i=0;i<s1.length();i++){
+            System.out.println("char at location 3 :" + s1.charAt(i));
+        }
         System.out.println("sub string " + s1.substring(3));
         System.out.println("sub string " + s1.substring(0,3));
         System.out.println("Contains k " + s1.contains("k"));
@@ -16,6 +19,10 @@ public class Main {
         System.out.println(s2==s3);
         System.out.println(s2.equals(s3));
         System.out.println(s2.equalsIgnoreCase(s3));
+        
+        //s2 > s3 = +ve
+        //s2 == s3 = 0
+        //s2 < s3 = -ve
         System.out.println(s2.compareTo(s3));
 
     }
