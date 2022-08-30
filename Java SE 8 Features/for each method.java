@@ -19,6 +19,7 @@ public class OutClass {
             System.out.println(i);
         }
 
+        //Internal loops
         //Java 1.8 for each method
         list.forEach(i -> System.out.println(i));
 
