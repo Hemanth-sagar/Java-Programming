@@ -21,7 +21,7 @@ public class OutClass {
 
         //Internal loops
         //Java 1.8 for each method
-        list.forEach(i -> System.out.println(i));
+        list.forEach(i -> System.out.println(i));//Lambda // Consumer interface
 
 
     }
