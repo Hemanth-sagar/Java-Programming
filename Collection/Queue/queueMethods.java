@@ -6,14 +6,14 @@ class Main {
 
         /*
 
-            boolean     offer()
-            boolean     add()
+            boolean     add() - Throw exception if not possible to add
+            boolean     offer() - Capacity restricted queue prefer this
 
-            Object      remove()
-            Object      poll()
+            Object      remove() - Throw exception if empty
+            Object      poll() - return null if empty
 
-            Object      peek()
-            Object      element()
+            Object      peek() - Throw exception if empty
+            Object      element() - return null if empty
 
          */
 
