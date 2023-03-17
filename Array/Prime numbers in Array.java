@@ -18,16 +18,18 @@ class PrimeNums
 	int countprime=0;
 	for(int i=0;i<n;i++)
 	{
-	 int count=0;
+// 	 int count=0;
+	 boolean flag = true;
 	 for(int j=2;j<a[i];j++)
 	 {
 	   if(a[i]%j==0)
 	   {
-	    count++;
+// 	    count++;
+	    flag = false;
 	    break;
 	   }
 	 }
-	 if(count==0)
+	 if(flag)
 	 {
 	 countprime++;
 	 System.out.print("\t"+a[i]);
