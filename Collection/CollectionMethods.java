@@ -20,6 +20,8 @@ class Main {
 
             boolean     remove(Object o) - Removes a single instance of the specified element from this collection
                         removeAll() - removes all the elements of the specified collection from the collection
+                        
+            List<E>     subList(int fromIndex, int toIndex)
 
             void        clear() - removes all the elements of the collection
 
@@ -66,6 +68,8 @@ class Main {
 
         employees.removeAll(newList);
         System.out.println(employees);
+        
+        System.out.println(employees.subList(2,5));
 
         employees.clear();
         System.out.println(employees);
