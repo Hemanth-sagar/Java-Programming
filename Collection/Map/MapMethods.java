@@ -109,6 +109,12 @@ class Main {
         hashMap.replace(11,"L");
         hashMap.replace(11,"new","L");
         System.out.println(hashMap);
+        
+        // iterating with iterator
+        Iterator it = hashMap.entrySet().iterator();
+        while(it.hasNext()){
+            System.out.println(it.next());
+        }
 
 
 
